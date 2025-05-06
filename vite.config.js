@@ -10,4 +10,9 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    build: {
+        // Ensure the manifest is generated
+        manifest: true,
+        outDir: 'public/build',
+    },
 });
