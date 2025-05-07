@@ -12,13 +12,13 @@
 <body>
     <header class="hidden lg:block bg-white dark:bg-purple-700 dark:text-white sticky top-0  h-20 ">
         <div class="grid grid-cols-12 gap-4 items-center h-full container mx-auto">
-            <div class="col-span-2">
+            <div class=" cols-span-1 lg:col-span-2">
                 <a href="">
                     <img src="{{ asset('images/logo/puva-black.png') }}" alt="" class="dark:grayscale dark:invert">
                 </a>
             </div>
-            <div class="col-span-8">
-                <nav class="flex justify-center items-center gap-6 text-slate-800 dark:text-white font-medium">
+            <div class="col-span-10 lg:col-span-8">
+                <nav class="flex justify-center items-center gap-4 text-slate-800 dark:text-white font-medium">
                     <!-- Home -->
                     <a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Home</a>
                   
@@ -67,15 +67,15 @@
                 </nav>
                   
             </div>
-            <div class="col-span-2">
-                <a href="" class="bg-purple-700 dark:border hover:bg-blue-700 text-white font-semibold tracking-wide px-8 py-4 rounded-full transition-colors duration-700 ease-in-out">Submit Review </a>
+            <div class="col-span-1 lg:col-span-2">
+                <a href="" class="bg-purple-700 dark:border hover:bg-blue-700 text-white font-semibold tracking-wide block text-center w-full py-4 rounded-full transition-colors duration-700 ease-in-out">Submit Review </a>
             </div>
         </div>
     </header>
     <section class="min-h-[200vh] bg-amber-50 dark:bg-amber-800 py-4">
         <div class="container mx-auto">
-            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider">Services We Provided</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto my-4">
+            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Services We Provided</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
                 <div class="hidden lg:block col-span-1"></div>
                 <div class="col-span-2">
                     <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
