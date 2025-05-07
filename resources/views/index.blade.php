@@ -14,7 +14,7 @@
         <div class="grid grid-cols-12 gap-4 items-center h-full container mx-auto">
             <div class="col-span-2">
                 <a href="">
-                    <img src="{{ asset('/images/logo/puva-black.png') }}" alt="" class="dark:grayscale dark:invert">
+                    <img src="{{ asset('images/logo/puva-black.png') }}" alt="" class="dark:grayscale dark:invert">
                 </a>
             </div>
             <div class="col-span-8">
