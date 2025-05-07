@@ -18,12 +18,54 @@
                 </a>
             </div>
             <div class="col-span-8">
-                <nav class="flex justify-center items-center gap-4 text-slate-800  dark:text-white ">
-                    <a href="" class="hover:text-slate-600 dark:hover:text-slate-400">Home</a>
-                    <a href="" class="hover:text-slate-600 dark:hover:text-slate-400">About</a>
-                    <a href="" class="hover:text-slate-600 dark:hover:text-slate-400">Services</a>
-                    <a href="" class="hover:text-slate-600 dark:hover:text-slate-400">Contact</a>
+                <nav class="flex justify-center items-center gap-6 text-slate-800 dark:text-white font-medium">
+                    <!-- Home -->
+                    <a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Home</a>
+                  
+                    <!-- Moving Services -->
+                    <div class="relative group">
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Moving Services</button>
+                      <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Residential & Commercial Moving</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Container & Freight Moving</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Car Hauling</a>
+                      </div>
+                    </div>
+                  
+                    <!-- Home Services -->
+                    <div class="relative group">
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Home Services</button>
+                      <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20 ">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Roofing</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Flooring</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">HVAC</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Plumbing</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Solar Systems</a>
+                      </div>
+                    </div>
+                  
+                    <!-- Limousine Service -->
+                    <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition py-4">Limousine Service</a>
+                  
+                    <!-- Electricity Companies -->
+                    <div class="relative group">
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Electricity Companies</button>
+                      <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Get Estimate</a>
+                      </div>
+                    </div>
+                  
+                    <!-- Real Estate -->
+                    <div class="relative group">
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Real Estate</button>
+                      <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Buy</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Sell</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Rent</a>
+                      </div>
+                    </div>
                 </nav>
+                  
             </div>
             <div class="col-span-2">
                 <a href="" class="bg-purple-700 dark:border hover:bg-blue-700 text-white font-semibold tracking-wide px-8 py-4 rounded-full transition-colors duration-700 ease-in-out">Submit Review </a>
