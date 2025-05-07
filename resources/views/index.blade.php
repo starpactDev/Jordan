@@ -74,37 +74,47 @@
     </header>
     <section class="min-h-[200vh] bg-amber-50 dark:bg-amber-800 py-4">
         <div class="container mx-auto">
-            <h2 class="text-2xl font-bold text-center text-slate-900 dark:text-slate-50 tracking-wider">Services We Provided</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-8 border gap-4 items-center container mx-auto my-16">
+            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider">Services We Provided</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto my-4">
                 <div class="hidden lg:block col-span-1"></div>
                 <div class="col-span-2">
                     <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
-                        <img src="{{ asset('images/logo/icons/solar-cell.png') }}" alt="" class="w-1/2 mx-auto my-4 dark:invert">
-                         <h3 class="text-slate-950 dark:text-slate-50">Solar</h3>
+                        <div class="flex justify-center items-center flex-col h-full">
+                            <img src="{{ asset('images/logo/icons/shipping-fast.svg') }}" alt="Moving Service" class="w-1/3 mx-auto my-4 dark:invert">
+                            <h3 class="text-slate-950 dark:text-slate-50">Moving Service</h3>
+                        </div>                        
                     </div>
                 </div>
                 <div class="col-span-2">
                     <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
-                        <img src="{{ asset('images/logo/icons/car-alt.png') }}" alt="" class="w-1/2 mx-auto my-4 dark:invert">
-                        <h3 class="text-slate-950 dark:text-slate-50">Car Rent</h3>
+                        <div class="flex justify-center items-center flex-col h-full">
+                            <img src="{{ asset('images/logo/icons/hammer-crash.svg') }}" alt="Home Service" class="w-1/3 mx-auto my-4 dark:invert">
+                            <h3 class="text-slate-950 dark:text-slate-50">Home Service</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="col-span-2">
                     <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
-                        <img src="{{ asset('images/logo/icons/sack-dollar.png') }}" alt="" class="w-1/2 mx-auto my-4 dark:invert">
-                        <h3 class="text-slate-950 dark:text-slate-50">Cash Loan</h3>
+                        <div class="flex justify-center items-center flex-col h-full">
+                            <img src="{{ asset('images/logo/icons/car-alt.png') }}" alt="Limousine Service" class="w-1/3 mx-auto my-4 dark:invert">
+                            <h3 class="text-slate-950 dark:text-slate-50">Limousine Service</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="col-span-2">
                     <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
-                        <img src="{{ asset('images/logo/icons/calendar-lines-pen.png') }}" alt="" class="w-1/2 mx-auto my-4 dark:invert">
-                        <h3 class="text-slate-950 dark:text-slate-50">Take Note</h3>
+                        <div class="flex justify-center items-center flex-col h-full">
+                            <img src="{{ asset('images/logo/icons/plug-alt.svg') }}" alt="Electricity Company" class="w-1/3 mx-auto my-4 dark:invert">
+                            <h3 class="text-slate-950 dark:text-slate-50">Electricity Company</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="col-span-2">
                     <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
-                        <img src="{{ asset('images/logo/icons/rocket-lunch.png') }}" alt="" class="w-1/2 mx-auto my-4 dark:invert">
-                        <h3 class="text-slate-950 dark:text-slate-50">Rocket Lunch</h3>
+                        <div class="flex justify-center items-center flex-col h-full">
+                            <img src="{{ asset('images/logo/icons/blueprint-house.svg') }}" alt="Real Estate" class="w-1/3 mx-auto my-4 dark:invert">
+                            <h3 class="text-slate-950 dark:text-slate-50">Real Estate</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="hidden lg:block col-span-1"></div>
