@@ -165,6 +165,48 @@
         </div>
         
     </section>
+    <footer class="min-h-[75dvh] bg-blue-800 ">
+        <div class="container mx-auto grid grid-cols-12 gap-4 py-4 border-b border-white">
+            <div class="col-span-4">
+                <a href="">
+                    <img src="{{ asset('images/logo/puva-black.png') }}" alt="" class="dark:grayscale dark:invert w-24">
+                </a>
+                <div class="flex justify-start items-center gap-4 text-slate-800 dark:text-white font-medium my-4">
+                    <a href="">
+                        <img src="{{ asset('images/logo/icons/facebook.svg') }}" alt="facebook" class="w-6 h-6 dark:invert hover:opacity-75">
+                    </a>
+                    <a href="">
+                        <img src="{{ asset('images/logo/icons/twitter-alt.svg') }}" alt="twitter" class="w-6 h-6 dark:invert hover:opacity-75">
+                    </a>
+                    <a href="">
+                        <img src="{{ asset('images/logo/icons/instagram.svg') }}" alt="instagram" class="w-6 h-6 dark:invert hover:opacity-75">
+                    </a>
+                    <a href="">
+                        <img src="{{ asset('images/logo/icons/tik-tok.svg') }}" alt="tiktok" class="w-6 h-6 dark:invert hover:opacity-75">
+                    </a>
+                    <a href="">
+                        <img src="{{ asset('images/logo/icons/linkedin.svg') }}" alt="linkedin" class="w-6 h-6 dark:invert hover:opacity-75">
+                    </a>
+                </div>
+            </div>
+            <div class="col-span-4 flex flex-col gap-2">
+                <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">About Us</a>
+                <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">Terms of Use</a>
+                <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">Privacy Policy</a>
+            </div>
+            <div class="col-span-4">
+
+            </div>
+        </div>
+        <div class="container mx-auto my-8 space-y-4 text-neutral-200">
+            <h2 class="text-2xl font-semibold tracking-wider">Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolore rerum similique adipisci minus fugiat molestiae. Repellat aut quo vero, excepturi est itaque? Nobis, quam.</p>
+            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit animi maxime rerum soluta aliquam doloremque, dolorem odio non error totam, eos quo voluptatem accusantium provident placeat necessitatibus assumenda vero similique dignissimos. Harum quos debitis odio illo assumenda perspiciatis nesciunt suscipit optio deleniti rem laudantium, repudiandae at accusamus sunt rerum labore?</small>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ipsum voluptatem rerum officia animi mollitia, saepe reprehenderit nesciunt magnam totam. Nam est totam harum possimus suscipit, quia ea odio corporis, unde minus explicabo provident. Ab, deleniti cum labore explicabo alias expedita recusandae dolore earum minima, quae distinctio esse vero nisi. </p>
+        </div>
+        <div class="border-t border-neutral-500 text-center text-neutral-200 py-4">© Designed and Developed by Starpact Global Services</div>
+    </footer>
     
 </body>
 </html>
