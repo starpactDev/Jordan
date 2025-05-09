@@ -119,9 +119,28 @@
             </div>
         </div>
 
+        <div class="container lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0">
+            <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
+            <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
+            <div class="grid sm:gird-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 my-6 lg:my-12">
+                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 lg:px-6 py-2">
+                    <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100">Lorem ipsum dolor sit.</h4>
+                    <p class="text-gray-600 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 lg:px-6 py-2">
+                    <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100">Lorem ipsum dolor sit.</h4>
+                    <p class="text-gray-600 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 lg:px-6 py-2">
+                    <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100">Lorem ipsum dolor sit.</h4>
+                    <p class="text-gray-600 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
         <div class="container mx-auto">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Trusted Comapnies</h2>
-            <div class="grid grid-cols-12 gap-6">
+            <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
                 <div class="col-span-4 group">
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
@@ -166,7 +185,7 @@
         
     </section>
     <footer class="min-h-[75dvh] bg-blue-800 ">
-        <div class="container mx-auto grid grid-cols-12 gap-4 py-4 border-b border-white">
+        <div class="container mx-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 py-4 border-b border-white p-4">
             <div class="col-span-4">
                 <a href="">
                     <img src="{{ asset('images/logo/puva-black.png') }}" alt="" class="dark:grayscale dark:invert w-24">
@@ -198,7 +217,7 @@
 
             </div>
         </div>
-        <div class="container mx-auto my-8 space-y-4 text-neutral-200">
+        <div class="container mx-auto my-8 space-y-4 text-neutral-200 px-4 lg:px-0">
             <h2 class="text-2xl font-semibold tracking-wider">Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolore rerum similique adipisci minus fugiat molestiae. Repellat aut quo vero, excepturi est itaque? Nobis, quam.</p>
