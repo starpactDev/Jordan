@@ -123,17 +123,32 @@
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
             <div class="grid sm:gird-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 my-6 lg:my-12">
-                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 lg:px-6 py-2">
-                    <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100">Lorem ipsum dolor sit.</h4>
-                    <p class="text-gray-600 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 py-2 flex gap-2 justify-between group hover:bg-purple-600 transition-all duration-300 ease-in-out">
+                    <div class="w-1/4 min-w-16">
+                        <img src="{{ asset('images/logo/icons/story-book.svg') }}" alt="" class="w-max-16 p-2 dark:invert group-hover:invert transition-all duration-300 ease-in-out ">
+                    </div>
+                    <div class="pl-2">
+                        <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-100 transition-all duration-300 ease-in-out">Lorem ipsum dolor sit.</h4>
+                        <p class="text-gray-600 dark:text-gray-400 group-hover:text-gray-200 transition-all duration-300 ease-in-out">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
-                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 lg:px-6 py-2">
-                    <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100">Lorem ipsum dolor sit.</h4>
-                    <p class="text-gray-600 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 py-2 flex gap-2 justify-between group hover:bg-purple-600 transition-all duration-300 ease-in-out">
+                    <div class="w-1/4 min-w-16">
+                        <img src="{{ asset('images/logo/icons/story-book.svg') }}" alt="" class="w-max-16 p-2 dark:invert group-hover:invert transition-all duration-300 ease-in-out ">
+                    </div>
+                    <div class="pl-2">
+                        <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-100 transition-all duration-300 ease-in-out">Lorem ipsum dolor sit.</h4>
+                        <p class="text-gray-600 dark:text-gray-400 group-hover:text-gray-200 transition-all duration-300 ease-in-out">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
-                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 lg:px-6 py-2">
-                    <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100">Lorem ipsum dolor sit.</h4>
-                    <p class="text-gray-600 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 py-2 flex gap-2 justify-between group hover:bg-purple-600 transition-all duration-300 ease-in-out">
+                    <div class="w-1/4 min-w-16">
+                        <img src="{{ asset('images/logo/icons/story-book.svg') }}" alt="" class="w-max-16 p-2 dark:invert group-hover:invert transition-all duration-300 ease-in-out ">
+                    </div>
+                    <div class="pl-2">
+                        <h4 class="text-2xl font-meidum tracking-wide text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-100 transition-all duration-300 ease-in-out">Lorem ipsum dolor sit.</h4>
+                        <p class="text-gray-600 dark:text-gray-400 group-hover:text-gray-200 transition-all duration-300 ease-in-out">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
             </div>
         </div>
