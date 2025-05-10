@@ -71,7 +71,7 @@
         </div>
     </header>
     <section class="min-h-[200vh] bg-amber-50 dark:bg-amber-800 py-4">
-        <div class="container mx-auto">
+        <div class="w-11/12 mx-auto">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Services We Provided</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
                 <div class="hidden lg:block col-span-1"></div>
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <div class="container lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0">
+        <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
             <div class="grid sm:gird-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 my-6 lg:my-12">
@@ -153,7 +153,7 @@
             </div>
         </div>
 
-        <div class="container mx-auto my-6 md:my-8 py-4">
+        <div class="w-11/12 mx-auto my-6 md:my-8 py-4">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Trusted Comapnies</h2>
             <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
                 <div class="col-span-4 group">
@@ -198,7 +198,7 @@
             </div>
         </div>
         
-        <div class="container lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
+        <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
             <h2 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h2>
             <div class="grid grid-cols-12 gap-4" id="interactive-sections">
@@ -277,6 +277,27 @@
             </div>
               
         </div>
+
+        <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-amber-300 dark:bg-amber-700 min-h-64 rounded-4xl">
+            <div class="grid grid-cols-12 gap-4 px-8 py-16">
+                <div class="col-span-12 md:col-span-6 space-y-6">
+                    <h2 class="text-3xl font-bold text-amber-950 dark:text-amber-50 tracking-wider">We're Jordan</h2>
+                    <p class="text-slate-800 dark:text-slate-200 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
+                    <button class="font-medium px-6 py-3 rounded-full bg-amber-900 hover:bg-amber-800 text-slate-50 hover:text-slate-100 dark:bg-amber-200 dark:text-slate-800 dark:hover:bg-amber-100 dark:hover:text-slate-900">What we do</button>
+                </div>
+                <div class="col-span-12 md:col-span-6 bg-amber-700 dark:bg-amber-400 rounded-2xl p-6 space-y-6 flex">
+                    <div class="w-full md:w-2/3 space-y-4">
+                        <h4 class="text-xl font-semibold capitalized text-slate-50">Lorem ipsum dolor sit amet</h4>
+                        <p class="text-base/4 font-semibold text-slate-100 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, cupiditate placeat id quisquam hic consectetur.</p>
+                        <button class="px-6 py-3 border-2 border-slate-50 hover:border:slate-200 rounded-full hover:bg-amber-600 text-slate-50 font-medium">Take a Look</button>
+                    </div>
+                    <div class="w-full md:w-1/3">
+
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
     </section>
     <footer class="min-h-[75dvh] bg-blue-800 ">
         <div class="container mx-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 py-4 border-b border-white p-4">
