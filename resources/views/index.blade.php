@@ -279,13 +279,13 @@
         </div>
 
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-amber-300 dark:bg-amber-700 min-h-64 rounded-4xl">
-            <div class="grid grid-cols-12 gap-4 px-8 py-16">
+            <div class="grid grid-cols-12 gap-6 px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
                     <h2 class="text-3xl font-bold text-amber-950 dark:text-amber-50 tracking-wider">We're Jordan</h2>
                     <p class="text-slate-800 dark:text-slate-200 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
                     <button class="font-medium px-6 py-3 rounded-full bg-amber-900 hover:bg-amber-800 text-slate-50 hover:text-slate-100 dark:bg-amber-200 dark:text-slate-800 dark:hover:bg-amber-100 dark:hover:text-slate-900">What we do</button>
                 </div>
-                <div class="col-span-12 md:col-span-6 bg-amber-700 dark:bg-amber-400 rounded-2xl p-6 space-y-6 flex">
+                <div class="col-span-12 md:col-span-6 bg-amber-700 dark:bg-amber-400 rounded-2xl p-6 space-y-6 md:flex">
                     <div class="w-full md:w-2/3 space-y-4">
                         <h4 class="text-xl font-semibold capitalized text-slate-50">Lorem ipsum dolor sit amet</h4>
                         <p class="text-base/4 font-semibold text-slate-100 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, cupiditate placeat id quisquam hic consectetur.</p>
