@@ -153,7 +153,7 @@
             </div>
         </div>
 
-        <div class="container mx-auto">
+        <div class="container mx-auto my-6 md:my-8 py-4">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Trusted Comapnies</h2>
             <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
                 <div class="col-span-4 group">
@@ -198,6 +198,85 @@
             </div>
         </div>
         
+        <div class="container lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
+            <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
+            <h2 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h2>
+            <div class="grid grid-cols-12 gap-4" id="interactive-sections">
+                <div class="col-span-12 md:col-span-3 border flex items-center" id="menu">
+                    <ul class="space-y-2 w-full">
+                        <li class="w-full px-6 hover-item roofing-item py-2 font-semibold bg-amber-300 hover:bg-amber-400 transition" data-target="roofing">
+                            <a href="#">Roofing</a>
+                        </li>
+                        <li class="w-full px-6 hover-item flooring-item py-2 font-semibold bg-amber-300 hover:bg-amber-400 transition" data-target="flooring">
+                            <a href="#">Flooring</a>
+                        </li>
+                        <li class="w-full px-6 hover-item hvac-item py-2 font-semibold bg-amber-300 hover:bg-amber-400 transition" data-target="hvac">
+                            <a href="#">HVAC</a>
+                        </li>
+                        <li class="w-full px-6 hover-item plumbing-item py-2 font-semibold bg-amber-300 hover:bg-amber-400 transition" data-target="plumbing">
+                            <a href="#">Plumbing</a>
+                        </li>
+                        <li class="w-full px-6 hover-item solar-item py-2 font-semibold bg-amber-300 hover:bg-amber-400 transition" data-target="solar">
+                            <a href="#">Solar System</a>
+                        </li>
+                    </ul>
+                </div>
+              
+                <div class="col-span-12 md:col-span-9 relative min-h-96" id="content-area">
+                    <div class="h-full section roofing-section bg-white border p-4" style="display: block;">
+                        <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
+                            <p class="w-full md:w-1/3 text-justify ">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
+                            </p>
+                            <div class="w-full md:w-2/3">
+                              <img src="{{ asset('images/homepage/roofing.png') }}" alt="Roofing"class="w-full h-full max-h-84 object-contain " >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-full section flooring-section border p-4 hidden ">
+                        <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
+                            <p class="w-full md:w-1/3 text-justify ">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
+                            </p>
+                            <div class="w-full md:w-2/3">
+                              <img src="{{ asset('images/homepage/flooring.png') }}" alt="Roofing"class="w-full h-full max-h-84 object-contain " >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-full section hvac-section border p-4 hidden ">
+                        <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
+                            <p class="w-full md:w-1/3 text-justify ">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
+                            </p>
+                            <div class="w-full md:w-2/3">
+                              <img src="{{ asset('images/homepage/hvac.png') }}" alt="Roofing"class="w-full h-full max-h-84 object-contain " >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-full section plumbing-section border p-4 hidden ">
+                        <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
+                            <p class="w-full md:w-1/3 text-justify ">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
+                            </p>
+                            <div class="w-full md:w-2/3">
+                              <img src="{{ asset('images/homepage/plumbing.png') }}" alt="Roofing"class="w-full h-full max-h-84 object-contain " >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-full section solar-section border p-4 hidden ">
+                        <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
+                            <p class="w-full md:w-1/3 text-justify ">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
+                            </p>
+                            <div class="w-full md:w-2/3">
+                              <img src="{{ asset('images/homepage/solar.png') }}" alt="Roofing"class="w-full h-full max-h-84 object-contain " >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+        </div>
     </section>
     <footer class="min-h-[75dvh] bg-blue-800 ">
         <div class="container mx-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 py-4 border-b border-white p-4">
@@ -243,4 +322,32 @@
     </footer>
     
 </body>
+<script>
+    const menu = document.getElementById('menu');
+    const contentArea = document.getElementById('content-area');
+    const sections = document.querySelectorAll('.section');
+  
+    // Show a section by name
+    function showSection(name) {
+      sections.forEach(section => {
+        section.style.display = section.classList.contains(`${name}-section`) ? 'block' : 'none';
+      });
+    }
+  
+    // Set initial state
+    showSection('roofing');
+  
+    // Handle hover
+    document.querySelectorAll('.hover-item').forEach(item => {
+      item.addEventListener('mouseenter', () => {
+        const target = item.getAttribute('data-target');
+        showSection(target);
+      });
+    });
+  
+    // Revert to default when mouse leaves the whole area
+    document.getElementById('interactive-sections').addEventListener('mouseleave', () => {
+      showSection('roofing');
+    });
+  </script>  
 </html>
