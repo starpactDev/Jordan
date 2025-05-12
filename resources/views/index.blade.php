@@ -120,7 +120,7 @@
         </div>
     </section>
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
-        <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0">
+        <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0 border-b border-slate-300 dark:border-slate-700">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
             <div class="grid sm:gird-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 my-6 lg:my-12">
@@ -155,8 +155,8 @@
         </div>
     </section>
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
-        <div class="w-11/12 mx-auto my-6 md:my-8 py-4">
-            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Trusted Comapnies</h2>
+        <div class="w-11/12 mx-auto ">
+            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mb-12">Trusted Comapnies</h2>
             <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
                 <div class="col-span-4 group">
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
