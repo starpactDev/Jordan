@@ -295,8 +295,19 @@
                         <p class="text-base/4 font-semibold text-slate-100 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, cupiditate placeat id quisquam hic consectetur.</p>
                         <button class="px-6 py-3 border-2 border-slate-50 hover:border:slate-200 rounded-full hover:bg-amber-600 text-slate-50 font-medium">Take a Look</button>
                     </div>
-                    <div class="w-full md:w-1/3">
-
+                    <div class="w-full md:w-1/3 flex justify-center items-center flex-wrap gap-4 md:py-6">
+                        <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(123, 51, 6, 1) 50%, rgba(123, 51, 6, 1) 50%, rgba(0, 251, 255, 1) 50%, rgba(0, 251, 255, 1) 100%);">
+                            <span class="text-2xl font-bold text-neutral-950 ">2</span>
+                        </div>
+                        <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(123, 51, 6, 1) 50%, rgba(123, 51, 6, 1) 50%, rgba(76, 185, 68, 1) 50%, rgba(76, 185, 68, 1) 100%);">
+                            <span class="text-2xl font-bold text-neutral-950 ">0</span>
+                        </div>
+                        <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(123, 51, 6, 1) 50%, rgba(123, 51, 6, 1) 50%, rgba(245, 238, 158, 1) 50%, rgba(245, 238, 158, 1) 100%);">
+                            <span class="text-2xl font-bold text-neutral-950 ">2</span>
+                        </div>
+                        <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(123, 51, 6, 1) 50%, rgba(123, 51, 6, 1) 50%, rgba(240, 101, 67, 1) 50%, rgba(240, 101, 67, 1) 100%);">
+                            <span class="text-2xl font-bold text-neutral-950 ">4</span>
+                        </div>
                     </div>                    
                 </div>
             </div>
