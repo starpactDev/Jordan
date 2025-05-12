@@ -200,13 +200,13 @@
             </div>
         </div>
     </section>
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner_transparent.png') }}'); background-size: cover; background-position: left;">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
             <h2 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h2>
             <div class="grid grid-cols-12 gap-4" id="interactive-sections">
-                <div class="col-span-12 md:col-span-3 border flex items-center" id="menu">
-                    <ul class="space-y-2 w-full">
+                <div class="col-span-12 md:col-span-3  flex items-center" id="menu">
+                    <ul class="space-y-6 w-full">
                         <li class="w-full px-6 hover-item roofing-item py-2 font-semibold bg-amber-300 hover:bg-amber-400 transition" data-target="roofing">
                             <a href="#">Roofing</a>
                         </li>
@@ -226,7 +226,7 @@
                 </div>
               
                 <div class="col-span-12 md:col-span-9 relative min-h-96" id="content-area">
-                    <div class="h-full section roofing-section border p-4" style="display: block;">
+                    <div class="h-full section roofing-section  p-4" style="display: block;">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
                             <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
@@ -236,7 +236,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="h-full section flooring-section border p-4 hidden ">
+                    <div class="h-full section flooring-section  p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
                             <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
@@ -246,7 +246,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="h-full section hvac-section border p-4 hidden ">
+                    <div class="h-full section hvac-section  p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
                             <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
@@ -256,7 +256,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="h-full section plumbing-section border p-4 hidden ">
+                    <div class="h-full section plumbing-section  p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
                             <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
@@ -266,7 +266,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="h-full section solar-section border p-4 hidden ">
+                    <div class="h-full section solar-section  p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
                             <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
@@ -303,7 +303,45 @@
         </div>
 
     </section>
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+        <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
+            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4">
+                <div class="col-span-4 rounded shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out">
+                    <div class="aspect-[1.67] bg-white">
+                        <img src="{{ asset('images/homepage/1.png') }}" alt="" class="w-full object-cover">
+                    </div>
+                    <div class="h-2 " style="background: linear-gradient(90deg, #6b21a8 0%, #6b21a8 50%, #1d4ed8 50%, #1d4ed8 100%);"></div>
+                    <div class="p-6 space-y-4 h-48 overflow-hidden">
+                        <h3 class="text-lg font-semibold tracking-wider text-slate-600 dark:text-slate-400">Lorem, ipsum dolor.</h3>
+                        <p class="bg-amber-50 dark:bg-amber-800 text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
+                    </div>
+                </div>
+                <div class="col-span-4 rounded shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out">
+                    <div class="aspect-[1.67] bg-white">
+                        <img src="{{ asset('images/homepage/2.png') }}" alt="" class="w-full object-cover">
+                    </div>
+                    <div class="h-2 " style="background: linear-gradient(90deg, #6b21a8 0%, #6b21a8 50%, #1d4ed8 50%, #1d4ed8 100%);"></div>
+                    <div class="p-6 space-y-4 h-48 overflow-hidden">
+                        <h3 class="text-lg font-semibold tracking-wider text-slate-600 dark:text-slate-400">Lorem, ipsum dolor.</h3>
+                        <p class="bg-amber-50 dark:bg-amber-800 text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
+                    </div>
 
+                </div>
+                <div class="col-span-4 rounded shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out">
+                    <div class="aspect-[1.67] bg-white">
+                        <img src="{{ asset('images/homepage/3.png') }}" alt="" class="w-full object-cover">
+                    </div>
+                    <div class="h-2 " style="background: linear-gradient(90deg, #6b21a8 0%, #6b21a8 50%, #1d4ed8 50%, #1d4ed8 100%);"></div>
+                    <div class="p-6 space-y-4 h-48 overflow-hidden">
+                        <h3 class="text-lg font-semibold tracking-wider text-slate-600 dark:text-slate-400">Lorem, ipsum dolor.</h3>
+                        <p class="bg-amber-50 dark:bg-amber-800 text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="{{ asset('images/homepage/parcel_1.png') }}" alt="" class="absolute -top-24 rotate-12 right-4 w-32 ">
+            <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32">
+        </div>
+    </section>
     <footer class="min-h-[75dvh] bg-blue-800 ">
         <div class="container mx-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 py-4 border-b border-white p-4">
             <div class="col-span-4">
