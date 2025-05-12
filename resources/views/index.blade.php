@@ -223,9 +223,9 @@
                 </div>
               
                 <div class="col-span-12 md:col-span-9 relative min-h-96" id="content-area">
-                    <div class="h-full section roofing-section bg-white border p-4" style="display: block;">
+                    <div class="h-full section roofing-section border p-4" style="display: block;">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
-                            <p class="w-full md:w-1/3 text-justify ">
+                            <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
                             </p>
                             <div class="w-full md:w-2/3">
@@ -235,7 +235,7 @@
                     </div>
                     <div class="h-full section flooring-section border p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
-                            <p class="w-full md:w-1/3 text-justify ">
+                            <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
                             </p>
                             <div class="w-full md:w-2/3">
@@ -245,7 +245,7 @@
                     </div>
                     <div class="h-full section hvac-section border p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
-                            <p class="w-full md:w-1/3 text-justify ">
+                            <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
                             </p>
                             <div class="w-full md:w-2/3">
@@ -255,7 +255,7 @@
                     </div>
                     <div class="h-full section plumbing-section border p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
-                            <p class="w-full md:w-1/3 text-justify ">
+                            <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
                             </p>
                             <div class="w-full md:w-2/3">
@@ -265,7 +265,7 @@
                     </div>
                     <div class="h-full section solar-section border p-4 hidden ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
-                            <p class="w-full md:w-1/3 text-justify ">
+                            <p class="w-full md:w-1/3 text-justify text-neutral-950 dark:text-neutral-50">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
                             </p>
                             <div class="w-full md:w-2/3">
