@@ -70,9 +70,9 @@
             </div>
         </div>
     </header>
-    <section class="min-h-[200vh] bg-amber-50 dark:bg-amber-800 py-4">
-        <div class="w-11/12 mx-auto">
-            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Services We Provided</h2>
+    <section class="min-h-screen bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
+        <div class="lg:mt-48 w-11/12 mx-auto">
+            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Services We Provided</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
                 <div class="hidden lg:block col-span-1"></div>
                 <div class="col-span-2">
@@ -118,7 +118,8 @@
                 <div class="hidden lg:block col-span-1"></div>
             </div>
         </div>
-
+    </section>
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
@@ -152,7 +153,8 @@
                 </div>
             </div>
         </div>
-
+    </section>
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 mx-auto my-6 md:my-8 py-4">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4">Trusted Comapnies</h2>
             <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
@@ -197,7 +199,8 @@
                 </div>
             </div>
         </div>
-        
+    </section>
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
             <h2 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h2>
@@ -277,7 +280,8 @@
             </div>
               
         </div>
-
+    </section>
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-amber-300 dark:bg-amber-700 min-h-64 rounded-4xl">
             <div class="grid grid-cols-12 gap-6 px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
@@ -299,6 +303,7 @@
         </div>
 
     </section>
+
     <footer class="min-h-[75dvh] bg-blue-800 ">
         <div class="container mx-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 py-4 border-b border-white p-4">
             <div class="col-span-4">
