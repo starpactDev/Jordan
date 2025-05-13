@@ -70,6 +70,7 @@
             </div>
         </div>
     </header>
+    {{-- Service We Provide --}}
     <section class="min-h-screen bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
         <div class="lg:mt-48 w-11/12 mx-auto">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Services We Provided</h2>
@@ -119,6 +120,8 @@
             </div>
         </div>
     </section>
+
+    {{-- What We Provide --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0 border-b border-slate-300 dark:border-slate-700">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
@@ -154,6 +157,8 @@
             </div>
         </div>
     </section>
+
+    {{-- Trusted Companies --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 mx-auto ">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mb-12">Trusted Comapnies</h2>
@@ -206,6 +211,8 @@
             </div>
         </div>
     </section>
+
+    {{-- Home Service --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/transparent_bg_1.png') }}'); background-size: cover; background-position: left;">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
@@ -287,9 +294,11 @@
               
         </div>
     </section>
+
+    {{-- We're Jordan --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-amber-300 dark:bg-amber-700 min-h-64 rounded-4xl">
-            <div class="grid grid-cols-12 gap-6 px-8 py-16">
+            <div class="grid grid-cols-12 gap-6 lg:px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
                     <h2 class="text-3xl font-bold text-amber-950 dark:text-amber-50 tracking-wider">We're Jordan</h2>
                     <p class="text-slate-800 dark:text-slate-200 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
@@ -311,7 +320,7 @@
                         <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(123, 51, 6, 1) 50%, rgba(123, 51, 6, 1) 50%, rgba(245, 238, 158, 1) 50%, rgba(245, 238, 158, 1) 100%);">
                             <span class="text-2xl font-bold text-neutral-950 ">2</span>
                         </div>
-                        <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(123, 51, 6, 1) 50%, rgba(123, 51, 6, 1) 50%, rgba(240, 101, 67, 1) 50%, rgba(240, 101, 67, 1) 100%);">
+                        <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(123, 51, 6, 1) 50%, rgba(123, 51, 6, 1) 50%, rgba(240, 101, 67, 1) 50%, rgba(240, 101, 67, 1) 100%);">
                             <span class="text-2xl font-bold text-neutral-950 ">5</span>
                         </div>
                     </div>                    
@@ -320,11 +329,13 @@
         </div>
 
     </section>
+
+    {{-- Moving Service --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Moving Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
-            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4">
+            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 relative z-9">
                 <div class="col-span-4 rounded shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out">
                     <div class="aspect-[1.67] bg-white">
                         <img src="{{ asset('images/homepage/1.png') }}" alt="" class="w-full object-cover">
@@ -357,10 +368,12 @@
                     </div>
                 </div>
             </div>
-            <img src="{{ asset('images/homepage/parcel_1.png') }}" alt="" class="absolute -top-24 rotate-12 right-4 w-32 ">
-            <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32">
+            <img src="{{ asset('images/homepage/parcel_1.png') }}" alt="" class="absolute top-8 rotate-12 right-4 w-32 z-1">
+            <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32 z-1">
         </div>
     </section>
+
+    {{-- Footer --}}
     <footer class="min-h-[75dvh] bg-blue-800 ">
         <div class="container mx-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 py-4 border-b border-white p-4">
             <div class="col-span-4">
