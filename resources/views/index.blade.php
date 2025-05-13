@@ -71,7 +71,7 @@
         </div>
     </header>
     {{-- Service We Provide --}}
-    <section class="min-h-screen bg-amber-50 dark:bg-slate-950 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
+    <section class="min-h-screen bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
         <div class="lg:mt-48 w-11/12 mx-auto">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Services We Provided</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
@@ -122,7 +122,7 @@
     </section>
 
     {{-- What We Provide --}}
-    <section class="bg-amber-50 dark:bg-slate-950 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0 border-b border-slate-300 dark:border-slate-700">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
@@ -159,7 +159,7 @@
     </section>
 
     {{-- Trusted Companies --}}
-    <section class="bg-amber-50 dark:bg-slate-950 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 mx-auto ">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mb-12">Trusted Comapnies</h2>
             <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
@@ -213,7 +213,7 @@
     </section>
 
     {{-- Home Service --}}
-    <section class="bg-amber-50 dark:bg-slate-950 py-4" >
+    <section class="bg-amber-50 dark:bg-amber-800 py-4" >
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -296,7 +296,7 @@
     </section>
 
     {{-- We're Jordan --}}
-    <section class="bg-amber-50 dark:bg-slate-950 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-amber-300 dark:bg-slate-700 min-h-64 rounded-4xl">
             <div class="grid grid-cols-12 gap-6 lg:px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
@@ -331,7 +331,7 @@
     </section>
 
     {{-- Moving Service --}}
-    <section class="bg-amber-50 dark:bg-slate-950 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Moving Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -372,6 +372,52 @@
             <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32 z-1">
         </div>
     </section>
+
+    <section class="min-h-screen grid grid-cols-1 md:grid-cols-2">
+        <!-- Left Half -->
+        <div class="col-span-1 bg-amber-50 dark:bg-amber-950 min-h-screen">
+            <div class="p-4 md:pl-24 max-w-screen-xl h-full flex items-center">
+                <div class="overflow-hidden">
+                    <h3 class="text-xl font-semibold text-amber-800 tracking-wider">Lorem, ipsum dolor.</h3>
+                    <h4 class="text-2xl md:text-4xl lg:text-6xl font-bold text-slate-700 dark:text-slate-300">Why invest in Jordan</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="col-span-1 space-y-6">
+                            <h6 class="text-neutral-800 dark:text-neutral-200 mt-8 font-semibold tracking-wide px-6">Lorem ipsum dolor sit.</h6>
+                            <p class="border-l-4 border-amber-800 pl-6 text-slate-950 dark:text-slate-300"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore laborum soluta modi voluptatum, aspernatur quos iusto? Assumenda aperiam est enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae cum nobis id?</p>
+                        </div>
+                        <div class="col-span-1 space-y-6">
+                            <h6 class="text-neutral-800 dark:text-neutral-200 mt-8 font-semibold tracking-wide px-6">Lorem ipsum dolor sit.</h6>
+                            <ul class="list-disc list-inside px-6 text-slate-950 dark:text-slate-300">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    
+        <!-- Right Half -->
+        <div class="col-span-1 bg-slate-50 dark:bg-yellow-950 min-h-screen">
+            <div class=" max-w-screen-xl h-full flex items-center justify-center ">
+                <div class="lg:w-2/3  space-y-4">
+                    <h5 class="text-2xl md:text-4xl font-bold text-neutral-700 dark:text-neutral-300">Subscribe to Newsletter</h5>
+                    <div class="my-6 w-16 border border-amber-800 dark:border-amber-400"></div>
+                    <h6 class="font-semibold text-lg text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, quisquam.</h6>
+                    <div class="flex justify-between my-4">
+                        <input type="email" class="py-4:text w-2/3 focus:outline-none px-4 bg-white" placeholder="Enter your email address">
+                        <button class="w-1/3 py-4 font-semibold tracking-wider bg-purple-700 hover:bg-purple-900 text-slate-50 hover:text-slate-200 transition duration-300 ease-in-out">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
 
     {{-- Footer --}}
     <footer class="min-h-[75dvh] bg-blue-800 ">
