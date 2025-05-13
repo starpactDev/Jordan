@@ -70,6 +70,7 @@
             </div>
         </div>
     </header>
+
     {{-- Service We Provide --}}
     <section class="min-h-screen bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
         <div class="lg:mt-48 w-11/12 mx-auto">
@@ -237,7 +238,7 @@
                         </li>
                     </ul>
                 </div>
-              
+                
                 <div class="col-span-12 md:col-span-9 relative min-h-96" id="content-area">
                     <div class="h-full section roofing-section  p-4" style="display: block;">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-4  h-full">
@@ -373,6 +374,7 @@
         </div>
     </section>
 
+    {{-- Newsletter --}}
     <section class="min-h-screen grid grid-cols-1 md:grid-cols-2">
         <!-- Left Half -->
         <div class="col-span-1 bg-amber-50 dark:bg-amber-950 min-h-screen">
