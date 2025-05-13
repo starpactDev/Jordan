@@ -71,7 +71,7 @@
         </div>
     </header>
     {{-- Service We Provide --}}
-    <section class="min-h-screen bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
+    <section class="min-h-screen bg-amber-50 dark:bg-slate-950 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
         <div class="lg:mt-48 w-11/12 mx-auto">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Services We Provided</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
@@ -122,7 +122,7 @@
     </section>
 
     {{-- What We Provide --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-slate-950 py-4">
         <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0 border-b border-slate-300 dark:border-slate-700">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
@@ -159,7 +159,7 @@
     </section>
 
     {{-- Trusted Companies --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-slate-950 py-4">
         <div class="w-11/12 mx-auto ">
             <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mb-12">Trusted Comapnies</h2>
             <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
@@ -167,8 +167,8 @@
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                        <div class="p-4 h-64 flex flex-col justify-center">
-                            <div class="w-36 mx-auto relative">
+                        <div class="p-4 h-64 flex flex-col justify-center ">
+                            <div class="w-36 mx-auto relative mb-4">
                                 <img src="{{ asset('images/logo/icons/rocket-lunch.png') }}" alt="" class="mx-auto dark:invert h-20 object-contain">
                             </div>
                             <h3 class="text-xl ">This is a head of the trusted company.</h3>
@@ -183,7 +183,7 @@
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="p-4 h-64 flex flex-col justify-center">
-                            <div class="w-36 mx-auto relative">
+                            <div class="w-36 mx-auto relative mb-4">
                                 <img src="{{ asset('images/logo/icons/rocket-lunch.png') }}" alt="" class="mx-auto dark:invert h-20 object-contain">
                             </div>
                             <h3 class="text-xl ">This is a head of the trusted company.</h3>
@@ -198,7 +198,7 @@
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="p-4 h-64 flex flex-col justify-center">
-                            <div class="w-36 mx-auto relative">
+                            <div class="w-36 mx-auto relative mb-4">
                                 <img src="{{ asset('images/logo/icons/rocket-lunch.png') }}" alt="" class="mx-auto dark:invert h-20 object-contain">
                             </div>
                             <h3 class="text-xl ">This is a head of the trusted company.</h3>
@@ -213,7 +213,7 @@
     </section>
 
     {{-- Home Service --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/transparent_bg_1.png') }}'); background-size: cover; background-position: left;">
+    <section class="bg-amber-50 dark:bg-slate-950 py-4" >
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -296,7 +296,7 @@
     </section>
 
     {{-- We're Jordan --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-slate-950 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-amber-300 dark:bg-amber-700 min-h-64 rounded-4xl">
             <div class="grid grid-cols-12 gap-6 lg:px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
@@ -331,7 +331,7 @@
     </section>
 
     {{-- Moving Service --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-slate-950 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Moving Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -341,9 +341,9 @@
                         <img src="{{ asset('images/homepage/1.png') }}" alt="" class="w-full object-cover">
                     </div>
                     <div class="h-2 " style="background: linear-gradient(90deg, #6b21a8 0%, #6b21a8 50%, #1d4ed8 50%, #1d4ed8 100%);"></div>
-                    <div class="p-6 space-y-4 h-48 overflow-hidden">
+                    <div class="p-6 space-y-4 h-48 overflow-hidden bg-amber-50 dark:bg-neutral-950">
                         <h3 class="text-lg font-semibold tracking-wider text-slate-600 dark:text-slate-400">Residental & Commercial Moving</h3>
-                        <p class="bg-amber-50 dark:bg-amber-800 text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
+                        <p class="text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
                     </div>
                 </div>
                 <div class="col-span-4 rounded shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out">
@@ -351,9 +351,9 @@
                         <img src="{{ asset('images/homepage/2.png') }}" alt="" class="w-full object-cover">
                     </div>
                     <div class="h-2 " style="background: linear-gradient(90deg, #6b21a8 0%, #6b21a8 50%, #1d4ed8 50%, #1d4ed8 100%);"></div>
-                    <div class="p-6 space-y-4 h-48 overflow-hidden">
+                    <div class="p-6 space-y-4 h-48 overflow-hidden bg-amber-50 dark:bg-neutral-950">
                         <h3 class="text-lg font-semibold tracking-wider text-slate-600 dark:text-slate-400">Container & Freight Moving</h3>
-                        <p class="bg-amber-50 dark:bg-amber-800 text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
+                        <p class="text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
                     </div>
 
                 </div>
@@ -362,14 +362,14 @@
                         <img src="{{ asset('images/homepage/3.png') }}" alt="" class="w-full object-cover">
                     </div>
                     <div class="h-2 " style="background: linear-gradient(90deg, #6b21a8 0%, #6b21a8 50%, #1d4ed8 50%, #1d4ed8 100%);"></div>
-                    <div class="p-6 space-y-4 h-48 overflow-hidden">
+                    <div class="p-6 space-y-4 h-48 overflow-hidden bg-amber-50 dark:bg-neutral-950">
                         <h3 class="text-lg font-semibold tracking-wider text-slate-600 dark:text-slate-400">Car Hauling</h3>
-                        <p class="bg-amber-50 dark:bg-amber-800 text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
+                        <p class="text-neutral-950 dark:text-neutral-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus culpa, aut repellat dolor praesentium odio repellendus est id corporis.</p>
                     </div>
                 </div>
             </div>
             <img src="{{ asset('images/homepage/parcel_1.png') }}" alt="" class="absolute top-8 rotate-12 right-4 w-32 ">
-            <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32 ">
+            <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32 z-1">
         </div>
     </section>
 
