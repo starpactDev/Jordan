@@ -245,7 +245,7 @@
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime provident nobis unde quas, minima aliquam reprehenderit culpa optio? Quidem officia expedita cupiditate nihil atque? Molestias laboriosam laborum ipsa alias dolor harum eos aliquid cupiditate, officia libero! Molestias, tenetur laborum fugit nemo dolore et iure sunt obcaecati! Suscipit, illum omnis.
                             </p>
                             <div class="w-full md:w-2/3">
-                              <img src="{{ asset('images/homepage/roofing.png') }}" alt="Roofing"class="w-full h-full max-h-84 object-contain border" >
+                              <img src="{{ asset('images/homepage/roofing.png') }}" alt="Roofing"class="w-full h-full max-h-84 object-contain " >
                             </div>
                         </div>
                     </div>
@@ -335,7 +335,7 @@
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
             <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Moving Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
-            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 relative z-9">
+            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 relative z-1">
                 <div class="col-span-4 rounded shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out">
                     <div class="aspect-[1.67] bg-white">
                         <img src="{{ asset('images/homepage/1.png') }}" alt="" class="w-full object-cover">
@@ -368,8 +368,8 @@
                     </div>
                 </div>
             </div>
-            <img src="{{ asset('images/homepage/parcel_1.png') }}" alt="" class="absolute top-8 rotate-12 right-4 w-32 z-1">
-            <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32 z-1">
+            <img src="{{ asset('images/homepage/parcel_1.png') }}" alt="" class="absolute top-8 rotate-12 right-4 w-32 ">
+            <img src="{{ asset('images/homepage/parcel_2.png') }}" alt="" class="absolute -bottom-12 -rotate-12 left-4 w-32 ">
         </div>
     </section>
 
