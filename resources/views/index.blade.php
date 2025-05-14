@@ -158,7 +158,7 @@
     {{-- What We Provide --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0 border-b border-slate-300 dark:border-slate-700">
-            <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">What We Provide</h3>
+            <h3 class="uppercase tracking-widest font-semibold text-amber-950 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
             <div class="grid sm:gird-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 my-6 lg:my-12">
                 <div class="col-span-4 min-h-20 border-l-4 border-blue-800 dark:border-blue-300 px-4 py-2 flex gap-2 justify-between group hover:bg-purple-600 transition-all duration-300 ease-in-out">
@@ -195,17 +195,32 @@
     {{-- Trusted Companies --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 mx-auto ">
-            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mb-12">Trusted Comapnies</h2>
-            <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4">
+            <h2 class="text-3xl font-semibold text-center text-amber-950 dark:text-slate-50 tracking-wider mb-16">Trusted Companies</h2>
+            <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4 pb-12 border-b border-b-slate-400">
                 <div class="col-span-4 group">
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="p-4 h-64 flex flex-col justify-center ">
                             <div class="w-36 mx-auto relative mb-4">
-                                <img src="{{ asset('images/logo/icons/rocket-lunch.png') }}" alt="" class="mx-auto dark:invert h-20 object-contain">
+                                <img src="{{ asset('images/company/company_1.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
                             </div>
-                            <h3 class="text-xl ">This is a head of the trusted company.</h3>
+                            <h3 class="text-xl ">MAJORITY</h3>
+                            <a href="" class="text-blue-900">www.dugood.org</a>
+                        </div>
+                        <div class="absolute top-0 right-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                        <div class="absolute bottom-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                    </div>
+                </div>
+                <div class="col-span-4 group ">
+                    <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
+                        <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                        <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                        <div class="p-4 h-64 flex flex-col justify-center">
+                            <div class="w-36 mx-auto relative mb-4">
+                                <img src="{{ asset('images/company/company_2.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
+                            </div>
+                            <h3 class="text-xl ">Superior Funding</h3>
                             <a href="" class="text-blue-900">www.dugood.org</a>
                         </div>
                         <div class="absolute top-0 right-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
@@ -218,24 +233,9 @@
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="p-4 h-64 flex flex-col justify-center">
                             <div class="w-36 mx-auto relative mb-4">
-                                <img src="{{ asset('images/logo/icons/rocket-lunch.png') }}" alt="" class="mx-auto dark:invert h-20 object-contain">
+                                <img src="{{ asset('images/company/company_3.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
                             </div>
-                            <h3 class="text-xl ">This is a head of the trusted company.</h3>
-                            <a href="" class="text-blue-900">www.dugood.org</a>
-                        </div>
-                        <div class="absolute top-0 right-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                        <div class="absolute bottom-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                    </div>
-                </div>
-                <div class="col-span-4 group">
-                    <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
-                        <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                        <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                        <div class="p-4 h-64 flex flex-col justify-center">
-                            <div class="w-36 mx-auto relative mb-4">
-                                <img src="{{ asset('images/logo/icons/rocket-lunch.png') }}" alt="" class="mx-auto dark:invert h-20 object-contain">
-                            </div>
-                            <h3 class="text-xl ">This is a head of the trusted company.</h3>
+                            <h3 class="text-xl ">BankFive</h3>
                             <a href="" class="text-blue-900">www.dugood.org</a>
                         </div>
                         <div class="absolute top-0 right-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
@@ -249,7 +249,7 @@
     {{-- Home Service --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4" >
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
-            <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Home Service</h3>
+            <h3 class="uppercase tracking-widest font-semibold text-amber-900 dark:text-slate-100">Home Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
             <div class="grid grid-cols-12 gap-4" id="interactive-sections">
                 <div class="col-span-12 md:col-span-3  flex items-center" id="menu">
@@ -367,9 +367,9 @@
     {{-- Moving Service --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
-            <h3 class="uppercase tracking-widest font-semibold text-slate-900 dark:text-slate-100">Moving Service</h3>
+            <h3 class="uppercase tracking-widest font-semibold text-amber-950 dark:text-slate-100">Moving Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
-            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 relative z-1">
+            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 my-6 md:my-8 relative z-1">
                 <div class="col-span-4 rounded shadow-sm hover:-translate-y-2 transition-all duration-300 ease-in-out">
                     <div class="aspect-[1.67] bg-white">
                         <img src="{{ asset('images/homepage/1.png') }}" alt="" class="w-full object-cover">
