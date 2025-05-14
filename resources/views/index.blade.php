@@ -158,7 +158,7 @@
 
     {{-- What We Provide --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
-        <div class="1-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0 border-b border-slate-300 dark:border-slate-700">
+        <div class="w-11/12 lg:w-5/6 mx-auto my-6 lg:my-12 py-4 md:py-6 lg:py-12 px-4 lg:px-0 border-b border-slate-300 dark:border-slate-700">
             <h3 class="uppercase tracking-widest font-semibold text-amber-950 dark:text-slate-100">What We Provide</h3>
             <h2 class=" text--2xl md:text-3xl lg:text-4xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Hand-picked recommendations to save you time</h2>
             <div class="grid sm:gird-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 my-6 lg:my-12">
@@ -194,10 +194,10 @@
     </section>
 
     {{-- Trusted Companies --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-linear-to-r from-amber-50 to-white dark:bg-amber-800 py-4">
         <div class="w-11/12 mx-auto ">
-            <h2 class="text-3xl font-semibold text-center text-amber-950 dark:text-slate-50 tracking-wider mb-16">Trusted Companies</h2>
-            <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4 pb-12 border-b border-b-slate-400">
+            <h2 class="text-3xl font-semibold text-center text-amber-950 dark:text-slate-50 tracking-wider mb-16">TRUSTED COMPANIES</h2>
+            <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4 pb-12">
                 <div class="col-span-4 group">
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
@@ -245,10 +245,11 @@
                 </div>
             </div>
         </div>
+        <div class="w-5/6 mx-auto border-b border-slate-300"></div>
     </section>
 
     {{-- Home Service --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4" >
+    <section class="bg-linear-to-r from-amber-50 to-white-50 dark:bg-amber-800 py-4" >
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-amber-900 dark:text-slate-100">Home Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -331,7 +332,7 @@
     </section>
 
     {{-- We're Jordan --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-linear-to-r from-pink-50 to-white-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-purple-300 dark:bg-slate-700 min-h-64 rounded-4xl">
             <div class="grid grid-cols-12 gap-6 lg:px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
@@ -366,7 +367,7 @@
     </section>
 
     {{-- Moving Service --}}
-    <section class="bg-amber-50 dark:bg-amber-800 py-4">
+    <section class="bg-linear-to-r from-amber-50 to-white-500  dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
             <h3 class="uppercase tracking-widest font-semibold text-amber-950 dark:text-slate-100">Moving Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -411,7 +412,7 @@
     {{-- Newsletter --}}
     <section class="min-h-screen grid grid-cols-1 md:grid-cols-2">
         <!-- Left Half -->
-        <div class="col-span-1 bg-amber-50 dark:bg-amber-950 min-h-screen">
+        <div class="col-span-1 bg-linear-to-r from-amber-50 to-white-500 dark:bg-amber-950 min-h-screen">
             <div class="p-4 md:pl-24 max-w-screen-xl h-full flex items-center">
                 <div class="overflow-hidden">
                     <h3 class="text-xl font-semibold text-amber-800 tracking-wider">Lorem, ipsum dolor.</h3>
