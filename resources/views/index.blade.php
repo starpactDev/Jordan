@@ -7,6 +7,39 @@
     <title>Jordan | An Consumer Affairs</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+<style>
+    .rainbow-border {
+      position: relative;
+      z-index: 0;
+    }
+  
+    .rainbow-border::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      padding: 6px; /* Thin border width */
+      border-radius: 9999px;
+      background: linear-gradient(90deg, #ff0080, #ff8c00, #40e0d0, #8a2be2, #ff0080);
+      background-size: 300% 300%;
+      animation: rainbowMove 6s linear infinite;
+      mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+      mask-composite: exclude;
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      pointer-events: none;
+      z-index: -1;
+    }
+  
+    @keyframes rainbowMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
 <body>
     <header class="hidden lg:block bg-white dark:bg-purple-700 dark:text-white sticky top-0  h-20 z-9">
         <div class="grid grid-cols-12 gap-4 items-center h-full container mx-auto">
@@ -72,13 +105,13 @@
     </header>
 
     {{-- Service We Provide --}}
-    <section class="min-h-screen bg-amber-50 dark:bg-amber-800 py-4" style="background-image: url('{{ asset('images/homepage/idrees_banner.png') }}'); background-size: cover; background-position: left;">
+    <section class="min-h-screen bg-gradient-to-br from-purple-600 to-fuchsia-500 dark:bg-purple-800 bg-blend-overlay bg-center bg-cover py-4" >
         <div class="lg:mt-48 w-11/12 mx-auto">
-            <h2 class="text-3xl font-semibold text-center text-slate-900 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Services We Provided</h2>
+            <h2 class="text-3xl lg:text-4xl font-bold text-center text-slate-50 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Live Better. Move smarter. Powered by Us.</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
                 <div class="hidden lg:block col-span-1"></div>
                 <div class="col-span-2">
-                    <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
+                    <div class="rainbow-border rounded-full bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4 transition duration-300 hover:scale-105 shadow-md">
                         <div class="flex justify-center items-center flex-col h-full">
                             <img src="{{ asset('images/logo/icons/shipping-fast.svg') }}" alt="Moving Service" class="w-1/3 mx-auto my-4 dark:invert">
                             <h3 class="text-slate-950 dark:text-slate-50">Moving Service</h3>
@@ -86,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col-span-2">
-                    <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
+                    <div class="rainbow-border rounded-full bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4 hover:scale-105">
                         <div class="flex justify-center items-center flex-col h-full">
                             <img src="{{ asset('images/logo/icons/hammer-crash.svg') }}" alt="Home Service" class="w-1/3 mx-auto my-4 dark:invert">
                             <h3 class="text-slate-950 dark:text-slate-50">Home Service</h3>
@@ -94,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-span-2">
-                    <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
+                    <div class="rainbow-border rounded-full bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4 hover:scale-105">
                         <div class="flex justify-center items-center flex-col h-full">
                             <img src="{{ asset('images/logo/icons/car-alt.png') }}" alt="Limousine Service" class="w-1/3 mx-auto my-4 dark:invert">
                             <h3 class="text-slate-950 dark:text-slate-50">Limousine Service</h3>
@@ -102,7 +135,7 @@
                     </div>
                 </div>
                 <div class="col-span-2">
-                    <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
+                    <div class="rainbow-border rounded-full bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4 hover:scale-105">
                         <div class="flex justify-center items-center flex-col h-full">
                             <img src="{{ asset('images/logo/icons/plug-alt.svg') }}" alt="Electricity Company" class="w-1/3 mx-auto my-4 dark:invert">
                             <h3 class="text-slate-950 dark:text-slate-50">Electricity Company</h3>
@@ -110,7 +143,7 @@
                     </div>
                 </div>
                 <div class="col-span-2">
-                    <div class="rounded-full border-2 border-white shadow-sm hover:shadow-lg bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4">
+                    <div class="rainbow-border rounded-full bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4 hover:scale-105">
                         <div class="flex justify-center items-center flex-col h-full">
                             <img src="{{ asset('images/logo/icons/blueprint-house.svg') }}" alt="Real Estate" class="w-1/3 mx-auto my-4 dark:invert">
                             <h3 class="text-slate-950 dark:text-slate-50">Real Estate</h3>
