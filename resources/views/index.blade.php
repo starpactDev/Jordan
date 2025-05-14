@@ -105,7 +105,7 @@
     </header>
 
     {{-- Service We Provide --}}
-    <section class="min-h-screen bg-gradient-to-br from-purple-600 to-fuchsia-500 dark:bg-purple-800 bg-blend-overlay bg-center bg-cover py-4" style="background-image: url({{ asset('images/homepage/hero_banner.png') }})">
+    <section class="min-h-screen  dark:bg-purple-800 bg-blend-overlay bg-center bg-cover py-4" style="background-image: url({{ asset('images/homepage/banner_drip.png') }})">
         <div class="lg:mt-48 w-11/12 mx-auto">
             <h2 class="text-3xl lg:text-4xl font-bold text-center text-slate-50 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Live Better. Move smarter. Powered by Us.</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
@@ -153,8 +153,8 @@
                 <div class="hidden lg:block col-span-1"></div>
             </div>
         </div>
+        <div class="min-h-64 "></div>
     </section>
-    <div class="min-h-52 bg-repeat-x bg-amber-50" style="background-image: url({{ asset('images/homepage/paint_dripping.png') }})"> </div>    
 
     {{-- What We Provide --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
@@ -466,22 +466,22 @@
             </div>
             <div class="col-span-4 flex justify-start items-center gap-4 text-slate-800 dark:text-white font-medium my-4">
                 <a href="">
-                    <img src="{{ asset('images/logo/icons/facebook.svg') }}" alt="facebook" class="w-6 h-6 dark:invert hover:opacity-75">
+                    <img src="{{ asset('images/logo/icons/facebook.svg') }}" alt="facebook" class="w-6 h-6 invert hover:opacity-75">
                 </a>
                 <a href="">
-                    <img src="{{ asset('images/logo/icons/twitter-alt.svg') }}" alt="twitter" class="w-6 h-6 dark:invert hover:opacity-75">
+                    <img src="{{ asset('images/logo/icons/twitter-alt.svg') }}" alt="twitter" class="w-6 h-6 invert hover:opacity-75">
                 </a>
                 <a href="">
-                    <img src="{{ asset('images/logo/icons/instagram.svg') }}" alt="instagram" class="w-6 h-6 dark:invert hover:opacity-75">
+                    <img src="{{ asset('images/logo/icons/instagram.svg') }}" alt="instagram" class="w-6 h-6 invert hover:opacity-75">
                 </a>
                 <a href="">
-                    <img src="{{ asset('images/logo/icons/tik-tok.svg') }}" alt="tiktok" class="w-6 h-6 dark:invert hover:opacity-75">
+                    <img src="{{ asset('images/logo/icons/tik-tok.svg') }}" alt="tiktok" class="w-6 h-6 invert hover:opacity-75">
                 </a>
                 <a href="">
-                    <img src="{{ asset('images/logo/icons/linkedin.svg') }}" alt="linkedin" class="w-6 h-6 dark:invert hover:opacity-75">
+                    <img src="{{ asset('images/logo/icons/linkedin.svg') }}" alt="linkedin" class="w-6 h-6 invert hover:opacity-75">
                 </a>
             </div>
-            <div class="col-span-4 flex flex-col gap-4">
+            <div class="col-span-4 flex flex-col items-end gap-4">
                 <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">About Us</a>
                 <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">Terms of Use</a>
                 <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">Privacy Policy</a>
