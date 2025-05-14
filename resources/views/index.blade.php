@@ -423,11 +423,11 @@
                         </div>
                         <div class="col-span-1 space-y-6">
                             <h6 class="text-neutral-800 dark:text-neutral-200 mt-8 font-semibold tracking-wide px-6">Lorem ipsum dolor sit.</h6>
-                            <ul class="list-disc list-inside px-6 text-slate-950 dark:text-slate-300">
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum.</li>
-                                <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem, ipsum dolor.</li>
+                            <ul class="px-6 text-slate-950 dark:text-slate-300">
+                                <li><span class="text-amber-600 mr-4">🟔</span> Lorem, ipsum dolor.</li>
+                                <li><span class="text-amber-600 mr-4">🟔</span> Lorem, ipsum.</li>
+                                <li><span class="text-amber-600 mr-4">🟔</span> Lorem, ipsum dolor.</li>
+                                <li><span class="text-amber-600 mr-4">🟔</span> Lorem, ipsum dolor.</li>
                             </ul>
                         </div>
                     </div>
