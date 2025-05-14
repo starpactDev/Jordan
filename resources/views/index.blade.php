@@ -105,7 +105,7 @@
     </header>
 
     {{-- Service We Provide --}}
-    <section class="min-h-screen bg-gradient-to-br from-purple-600 to-fuchsia-500 dark:bg-purple-800 bg-blend-overlay bg-center bg-cover py-4" >
+    <section class="min-h-screen bg-gradient-to-br from-purple-600 to-fuchsia-500 dark:bg-purple-800 bg-blend-overlay bg-center bg-cover py-4" style="background-image: url({{ asset('images/homepage/hero_banner.png') }})">
         <div class="lg:mt-48 w-11/12 mx-auto">
             <h2 class="text-3xl lg:text-4xl font-bold text-center text-slate-50 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Live Better. Move smarter. Powered by Us.</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
@@ -154,6 +154,7 @@
             </div>
         </div>
     </section>
+    <div class="min-h-52 bg-repeat-x bg-amber-50" style="background-image: url({{ asset('images/homepage/paint_dripping.png') }})"> </div>    
 
     {{-- What We Provide --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
@@ -331,18 +332,18 @@
 
     {{-- We're Jordan --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
-        <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-amber-300 dark:bg-slate-700 min-h-64 rounded-4xl">
+        <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-purple-300 dark:bg-slate-700 min-h-64 rounded-4xl">
             <div class="grid grid-cols-12 gap-6 lg:px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
-                    <h2 class="text-3xl font-bold text-amber-950 dark:text-amber-50 tracking-wider">We're Jordan</h2>
+                    <h2 class="text-3xl font-bold text-purple-950 dark:text-amber-50 tracking-wider">We're Jordan</h2>
                     <p class="text-slate-800 dark:text-slate-200 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
-                    <button class="font-medium px-6 py-3 rounded-full bg-amber-900 hover:bg-amber-800 text-slate-50 hover:text-slate-100 dark:bg-amber-600 dark:text-slate-200 dark:hover:bg-amber-800 dark:hover:text-slate-100 transition duration-300 ease-in-out">What we do</button>
+                    <button class="font-medium px-6 py-3 rounded-full bg-purple-900 hover:bg-purple-800 text-slate-50 hover:text-slate-100 dark:bg-amber-600 dark:text-slate-200 dark:hover:bg-amber-800 dark:hover:text-slate-100 transition duration-300 ease-in-out">What we do</button>
                 </div>
-                <div class="col-span-12 md:col-span-6 bg-amber-700 dark:bg-slate-400 rounded-2xl p-6 space-y-6 md:flex">
+                <div class="col-span-12 md:col-span-6 bg-purple-700 dark:bg-slate-400 rounded-2xl p-6 space-y-6 md:flex">
                     <div class="w-full md:w-2/3 space-y-4 text-slate-50 dark:text-slate-950">
                         <h4 class="text-xl font-semibold capitalized ">Lorem ipsum dolor sit amet</h4>
                         <p class="text-base/4 font-semibold tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, cupiditate placeat id quisquam hic consectetur.</p>
-                        <button class="px-6 py-3 border-2 border-slate-50 hover:border:slate-200 rounded-full hover:bg-amber-600 font-medium transition duration-300 ease-in-out">Take a Look</button>
+                        <button class="px-6 py-3 border-2 border-slate-50 hover:border:slate-200 rounded-full hover:bg-purple-600 font-medium transition duration-300 ease-in-out">Take a Look</button>
                     </div>
                     <div class="w-full md:w-1/3 flex justify-center items-center flex-wrap gap-x-3 md:py-6 ">
                         <div class="w-12 aspect-square border border-amber-900 flex justify-center items-center " style="background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 48%, rgba(123, 51, 6, 1) 52%, rgba(123, 51, 6, 1) 52%, rgba(0, 251, 255, 1) 50%, rgba(0, 251, 255, 1) 100%);">
