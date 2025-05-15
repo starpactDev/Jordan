@@ -413,11 +413,11 @@
     <section class="min-h-screen grid grid-cols-1 md:grid-cols-2">
         <!-- Left Half -->
         <div class="col-span-1 bg-amber-50 dark:bg-amber-950 min-h-screen">
-            <div class="p-4 md:pl-24 max-w-screen-xl h-full flex items-center">
+            <div class="p-4 md:pl-16 lg:pl-24 max-w-screen-xl h-full flex items-center">
                 <div class="overflow-hidden">
                     <h3 class="text-xl font-semibold text-amber-800 dark:text-amber-400 tracking-wider">Lorem, ipsum dolor.</h3>
                     <h4 class="text-2xl md:text-4xl lg:text-6xl font-bold text-slate-700 dark:text-slate-300">Why invest in Jordan</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div class="col-span-1 space-y-6">
                             <h6 class="text-neutral-800 dark:text-neutral-200 mt-8 font-semibold tracking-wide px-6">Lorem ipsum dolor sit.</h6>
                             <p class="border-l-4 border-amber-800 dark:border-amber-400 pl-6 text-slate-950 dark:text-slate-300"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore laborum soluta modi voluptatum, aspernatur quos iusto? Assumenda aperiam est enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae cum nobis id?</p>
@@ -440,7 +440,7 @@
     
         <!-- Right Half -->
         <div class="col-span-1 bg-slate-50 dark:bg-yellow-950 min-h-screen">
-            <div class=" max-w-screen-xl h-full flex items-center justify-center ">
+            <div class="p-4 max-w-screen-xl h-full flex items-center justify-center ">
                 <div class="lg:w-2/3  space-y-4">
                     <h5 class="text-2xl md:text-4xl font-bold text-neutral-700 dark:text-neutral-300">Subscribe to Newsletter</h5>
                     <div class="my-6 w-16 border border-amber-800 dark:border-amber-400"></div>
