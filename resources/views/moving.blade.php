@@ -9,6 +9,23 @@
 </head>
 <body>
 
+    <section class="bg-emerald-50 dark:bg-emeerld-800 h-screen py-6 md:py-12 lg:py-24">
+        <div class="w-11/12 lg:w-3/4 mx-auto bg-emerald-100 dark:bg-emerald-900 h-full p-4">
+            <h1 class="font-serif font text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-slate-950 dark:text-slate-50 mb-8">Moving Cost Calculator</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 p-4">
+                <div class="col-span-1">
+                    <label for="" class="text-lg tracking-wider text-slate-800 dark:text-slate-50">Where are you moving from?</label>
+                    <input type="text" name="" id="" class="rounded-md border border-emerald-600 dark:border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent w-full px-4 py-2 mt-2" placeholder="Salt Lake City, Utah, USA" />
+                </div>
+                <div class="col-span-1">
+                    <label for="" class="text-lg tracking-wider text-slate-800 dark:text-slate-50">Where are you moving to?</label>
+                    <input type="text" name="" id="" class="rounded-md border border-emerald-600 dark:border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent w-full px-4 py-2 mt-2" placeholder="Austin, TX, USA" />
+                </div>
+                <div class="col-span-1"></div>
+                <div class="col-span-1"></div>
+            </div>
+        </div>
+    </section>
     <section class="min-h-screen bg-emerald-50">
         <div class="w-11/12 md:w-5/6 mx-auto grid grid-cols-3 sm:grid-cols-6 md:grid-cols-9 lg:grid-cols-12 py-4 gap-6 lg:py-12">
             <div class="col-span-3 aspect-[1.3] border p-4 shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out rounded-lg bg-emerald-50  dark:bg-amber-800">
@@ -161,6 +178,5 @@
             <div class="col-span-3 border aspect-[1.67] p-4 shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out"></div>            
         </div>
     </section>
-
 </body>
 </html>
