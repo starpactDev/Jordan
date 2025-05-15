@@ -458,36 +458,33 @@
 
     {{-- Footer --}}
     <footer class="min-h-[75dvh] bg-purple-800 ">
-        <div class="container mx-auto grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 py-4 border-b border-white p-4">
-            <div class="col-span-4">
-                <a href="">
-                    <img src="{{ asset('images/logo/puva-black.png') }}" alt="" class="dark:grayscale dark:invert w-24">
+        <div class="w-11/12 md:w-5/6 mx-auto grid grid-cols-6 md:grid-cols-12 gap-6 py-4 border-b border-purple-600 text-sm">
+            <div class="col-span-6 md:col-span-3 flex items-center">
+                <a href="/">
+                    <img src="{{ asset('images/logo/puva-black.png') }}" alt="Logo" class="dark:grayscale dark:invert w-24">
                 </a>
             </div>
-            <div class="col-span-4 flex justify-start items-center gap-4 text-slate-800 dark:text-white font-medium my-4">
-                <a href="">
-                    <img src="{{ asset('images/logo/icons/facebook.svg') }}" alt="facebook" class="w-6 h-6 invert hover:opacity-75">
-                </a>
-                <a href="">
-                    <img src="{{ asset('images/logo/icons/twitter-alt.svg') }}" alt="twitter" class="w-6 h-6 invert hover:opacity-75">
-                </a>
-                <a href="">
-                    <img src="{{ asset('images/logo/icons/instagram.svg') }}" alt="instagram" class="w-6 h-6 invert hover:opacity-75">
-                </a>
-                <a href="">
-                    <img src="{{ asset('images/logo/icons/tik-tok.svg') }}" alt="tiktok" class="w-6 h-6 invert hover:opacity-75">
-                </a>
-                <a href="">
-                    <img src="{{ asset('images/logo/icons/linkedin.svg') }}" alt="linkedin" class="w-6 h-6 invert hover:opacity-75">
-                </a>
+            <div class="col-span-6 md:col-span-3 flex items-center gap-4">
+                <a href="#"><img src="{{ asset('images/logo/icons/facebook.svg') }}" alt="facebook" class="w-6 h-6 invert hover:opacity-75"></a>
+                <a href="#"><img src="{{ asset('images/logo/icons/twitter-alt.svg') }}" alt="twitter" class="w-6 h-6 invert hover:opacity-75"></a>
+                <a href="#"><img src="{{ asset('images/logo/icons/instagram.svg') }}" alt="instagram" class="w-6 h-6 invert hover:opacity-75"></a>
+                <a href="#"><img src="{{ asset('images/logo/icons/tik-tok.svg') }}" alt="tiktok" class="w-6 h-6 invert hover:opacity-75"></a>
+                <a href="#"><img src="{{ asset('images/logo/icons/linkedin.svg') }}" alt="linkedin" class="w-6 h-6 invert hover:opacity-75"></a>
             </div>
-            <div class="col-span-4 flex flex-col items-end gap-4">
-                <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">About Us</a>
-                <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">Terms of Use</a>
-                <a href="" class="font-semibold text-neutral-50 hover:text-neutral-300">Privacy Policy</a>
+            <div class="col-span-3 md:col-span-3 flex flex-col gap-4">
+                <a href="#" class="font-semibold text-neutral-50 hover:text-neutral-300">About Us</a>
+                <a href="#" class="font-semibold text-neutral-50 hover:text-neutral-300">Terms of Use</a>
+                <a href="#" class="font-semibold text-neutral-50 hover:text-neutral-300">Privacy Policy</a>
+            </div>
+            <div class="col-span-3 md:col-span-3 flex flex-col gap-2 text-neutral-50">
+                <a href="#" class="hover:text-neutral-300">Moving Services</a>
+                <a href="#" class="hover:text-neutral-300">Home Services</a>
+                <a href="#" class="hover:text-neutral-300">Limousine Service</a>
+                <a href="#" class="hover:text-neutral-300">Electricity Companies</a>
             </div>
         </div>
-        <div class="container mx-auto my-8 space-y-4 text-neutral-200 px-4 lg:px-0">
+        
+        <div class="w-11/12 md:w-5/6 mx-auto my-8 space-y-4 text-neutral-200 px-4 lg:px-0">
             <h2 class="text-2xl font-semibold tracking-wider">Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolore rerum similique adipisci minus fugiat molestiae. Repellat aut quo vero, excepturi est itaque? Nobis, quam.</p>
