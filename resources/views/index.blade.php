@@ -107,8 +107,8 @@
     {{-- Service We Provide --}}
     <section class="min-h-screen bg-amber-50 dark:bg-purple-950  bg-center bg-cover py-4" style=" background-image: url({{ asset('images/homepage/banner_drip.png') }})">
         <div class="lg:mt-48 w-11/12 mx-auto">
-            <h2 class="text-3xl lg:text-4xl font-bold text-center text-slate-50 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Live Better. Move smarter. Powered by Us.</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center text-slate-50 dark:text-slate-50 tracking-wider mt-16 mb-4 lg:mb-16">Live Better. Move smarter. Powered by Us.</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 gap-4 items-center mx-auto">
                 <div class="hidden lg:block col-span-1"></div>
                 <div class="col-span-2">
                     <div class="rainbow-border rounded-full bg-yellow-50 dark:bg-yellow-800 aspect-square text-center py-4 transition duration-300 hover:scale-105 shadow-md">
@@ -194,7 +194,7 @@
     </section>
 
     {{-- Trusted Companies --}}
-    <section class="bg-linear-to-r from-amber-50 to-white dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 mx-auto ">
             <h2 class="text-3xl font-semibold text-center text-amber-950 dark:text-slate-50 tracking-wider mb-16">TRUSTED COMPANIES</h2>
             <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4 pb-12">
@@ -249,7 +249,7 @@
     </section>
 
     {{-- Home Service --}}
-    <section class="bg-linear-to-r from-amber-50 to-white-50 dark:bg-amber-800 py-4" >
+    <section class="bg-amber-50 dark:bg-amber-800 py-4" >
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4">
             <h3 class="uppercase tracking-widest font-semibold text-amber-900 dark:text-slate-100">Home Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -332,7 +332,7 @@
     </section>
 
     {{-- We're Jordan --}}
-    <section class="bg-linear-to-r from-pink-50 to-white-50 dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-purple-300 dark:bg-slate-700 min-h-64 rounded-4xl">
             <div class="grid grid-cols-12 gap-6 lg:px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
@@ -367,7 +367,7 @@
     </section>
 
     {{-- Moving Service --}}
-    <section class="bg-linear-to-r from-amber-50 to-white-500  dark:bg-amber-800 py-4">
+    <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 relative">
             <h3 class="uppercase tracking-widest font-semibold text-amber-950 dark:text-slate-100">Moving Service</h3>
             <h6 class=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wide lg:w-1/2 font-serif my-4 text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veritatis!</h6>
@@ -412,7 +412,7 @@
     {{-- Newsletter --}}
     <section class="min-h-screen grid grid-cols-1 md:grid-cols-2">
         <!-- Left Half -->
-        <div class="col-span-1 bg-linear-to-r from-amber-50 to-white-500 dark:bg-amber-950 min-h-screen">
+        <div class="col-span-1 bg-amber-50 dark:bg-amber-950 min-h-screen">
             <div class="p-4 md:pl-24 max-w-screen-xl h-full flex items-center">
                 <div class="overflow-hidden">
                     <h3 class="text-xl font-semibold text-amber-800 tracking-wider">Lorem, ipsum dolor.</h3>
