@@ -39,7 +39,7 @@
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
     }
-  </style>
+</style>
 <body>
     <header class="hidden lg:block bg-white dark:bg-purple-700 dark:text-white sticky top-0  h-20 z-9">
         <div class="grid grid-cols-12 gap-4 items-center h-full container mx-auto">
@@ -105,7 +105,7 @@
     </header>
 
     {{-- Service We Provide --}}
-    <section class="min-h-screen  dark:bg-purple-800 bg-blend-overlay bg-center bg-cover py-4" style="background-image: url({{ asset('images/homepage/banner_drip.png') }})">
+    <section class="min-h-screen bg-amber-50 dark:bg-purple-950  bg-center bg-cover py-4" style=" background-image: url({{ asset('images/homepage/banner_drip.png') }})">
         <div class="lg:mt-48 w-11/12 mx-auto">
             <h2 class="text-3xl lg:text-4xl font-bold text-center text-slate-50 dark:text-slate-50 tracking-wider mt-20 mb-4 lg:mb-16">Live Better. Move smarter. Powered by Us.</h2>
             <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 px-6 lg:px-0 py-4 shadow-sm gap-4 items-center container mx-auto">
