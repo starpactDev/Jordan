@@ -197,7 +197,7 @@
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
         <div class="w-11/12 mx-auto ">
             <h2 class="text-3xl font-semibold text-center text-amber-950 dark:text-slate-50 tracking-wider mb-16">TRUSTED COMPANIES</h2>
-            <div class="grid grid-cols-4 md:grod-cols-8 lg:grid-cols-12 gap-6 px-4 pb-12">
+            <div class="grid grid-cols-4 sm:grid-cols-8 md:grid-cols-12 lg:grid-cols-16 gap-6 px-4 pb-12">
                 <div class="col-span-4 group">
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
@@ -237,6 +237,21 @@
                                 <img src="{{ asset('images/company/company_3.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
                             </div>
                             <h3 class="text-xl ">BankFive</h3>
+                            <a href="" class="text-blue-900">www.dugood.org</a>
+                        </div>
+                        <div class="absolute top-0 right-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                        <div class="absolute bottom-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                    </div>
+                </div>
+                <div class="col-span-4 group ">
+                    <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
+                        <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                        <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
+                        <div class="p-4 flex flex-col justify-center">
+                            <div class="w-36 mx-auto relative mb-4">
+                                <img src="{{ asset('images/company/company_2.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
+                            </div>
+                            <h3 class="text-xl ">Superior Funding</h3>
                             <a href="" class="text-blue-900">www.dugood.org</a>
                         </div>
                         <div class="absolute top-0 right-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
