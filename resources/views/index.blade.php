@@ -202,7 +202,7 @@
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                        <div class="p-4 h-64 flex flex-col justify-center ">
+                        <div class="p-4 flex flex-col justify-center ">
                             <div class="w-36 mx-auto relative mb-4">
                                 <img src="{{ asset('images/company/company_1.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
                             </div>
@@ -217,7 +217,7 @@
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                        <div class="p-4 h-64 flex flex-col justify-center">
+                        <div class="p-4 flex flex-col justify-center">
                             <div class="w-36 mx-auto relative mb-4">
                                 <img src="{{ asset('images/company/company_2.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
                             </div>
@@ -232,7 +232,7 @@
                     <div class="text-center text-neutral-900 dark:text-slate-50 space-y-2 p-4 relative -translate-x-3 rotate-6 duration-500 group-hover:rotate-0">
                         <div class="absolute top-4 left-0 h-px w-full bg-[linear-gradient(to_right,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
                         <div class="absolute top-0 left-4 h-full w-px bg-[linear-gradient(to_bottom,_transparent_0%,_var(--gradient-bg)_9.27%,_var(--gradient-bg)_90.7%,_transparent_100%)] [--gradient-bg:var(--color-black)]/15 dark:[--gradient-bg:var(--color-white)]/10"></div>
-                        <div class="p-4 h-64 flex flex-col justify-center">
+                        <div class="p-4 flex flex-col justify-center">
                             <div class="w-36 mx-auto relative mb-4">
                                 <img src="{{ asset('images/company/company_3.png') }}" alt="" class="mx-auto dark:invert h-36 object-contain">
                             </div>
@@ -245,7 +245,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-5/6 mx-auto border-b border-slate-300"></div>
+        <div class="w-5/6 mx-auto mt-4 border-b border-slate-300 dark:border-slate-700"></div>
     </section>
 
     {{-- Home Service --}}
