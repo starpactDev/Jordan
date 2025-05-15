@@ -627,7 +627,7 @@
         <div class="w-11/12 md:w-5/6 mx-auto grid grid-cols-6 md:grid-cols-12 gap-6 py-4 border-b border-purple-600 text-sm">
             <div class="col-span-6 md:col-span-3 flex items-center">
                 <a href="/">
-                    <img src="{{ asset('images/logo/puva-black.png') }}" alt="Logo" class="dark:grayscale dark:invert w-24">
+                    <img src="{{ asset('images/logo/puva-black.png') }}" alt="Logo" class="dark:grayscale invert w-24">
                 </a>
             </div>
             <div class="col-span-6 md:col-span-3 flex items-center gap-4">
