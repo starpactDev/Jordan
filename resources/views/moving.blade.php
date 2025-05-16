@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jordan | Residental Moving Service</title>
-    {{-- <link rel="stylesheet" href="{{ asset('build/assets/app-Cledzepu.css') }}"> --}}
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @production
+        @vite('resources/css/app.css')
+    @else
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @endproduction
 </head>
 <body>
 
@@ -179,5 +182,9 @@
             <div class="col-span-3 border aspect-[1.67] p-4 shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out"></div>            
         </div>
     </section>
+    @production
+        <!-- Only load JS in production if needed -->
+        @vite('resources/js/app.js')
+    @endproduction
 </body>
 </html>
