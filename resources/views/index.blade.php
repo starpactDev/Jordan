@@ -55,9 +55,9 @@
                   
                     <!-- Moving Services -->
                     <div class="relative group">
-                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Moving Services</button>
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-5">Moving Services</button>
                       <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20">
-                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Residential & Commercial Moving</a>
+                        <a href="{{ route('moving-service') }}" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Residential & Commercial Moving</a>
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Container & Freight Moving</a>
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Car Hauling</a>
                       </div>
@@ -65,7 +65,7 @@
                   
                     <!-- Home Services -->
                     <div class="relative group">
-                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Home Services</button>
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-5">Home Services</button>
                       <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20 ">
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Roofing</a>
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Flooring</a>
@@ -80,7 +80,7 @@
                   
                     <!-- Electricity Companies -->
                     <div class="relative group">
-                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Electricity Companies</button>
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-5">Electricity Companies</button>
                       <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20">
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Get Estimate</a>
                       </div>
@@ -88,7 +88,7 @@
                   
                     <!-- Real Estate -->
                     <div class="relative group">
-                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-4">Real Estate</button>
+                      <button class="hover:text-blue-600 dark:hover:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition py-5">Real Estate</button>
                       <div class="absolute left-0 border-t-4 border-t-blue-600 w-64 bg-white dark:bg-slate-800 shadow-lg rounded-md hidden group-hover:block z-20">
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Buy</a>
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-700 transition">Sell</a>
@@ -348,14 +348,14 @@
 
     {{-- We're Jordan --}}
     <section class="bg-amber-50 dark:bg-amber-800 py-4">
-        <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-purple-300 dark:bg-slate-700 min-h-64 rounded-4xl">
+        <div class="w-11/12 lg:w-5/6 mx-auto my-6 md:my-12 px-4 lg:px-0 py-4 bg-purple-300 dark:bg-amber-700 min-h-64 rounded-4xl">
             <div class="grid grid-cols-12 gap-6 lg:px-8 py-16">
                 <div class="col-span-12 md:col-span-6 space-y-6">
                     <h2 class="text-3xl font-bold text-purple-950 dark:text-amber-50 tracking-wider">We're Jordan</h2>
                     <p class="text-slate-800 dark:text-slate-200 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis, dolor cum sequi quisquam reprehenderit! Pariatur accusantium deserunt unde fugit cum velit fugiat tempore eveniet.</p>
                     <button class="font-medium px-6 py-3 rounded-full bg-purple-900 hover:bg-purple-800 text-slate-50 hover:text-slate-100 dark:bg-amber-600 dark:text-slate-200 dark:hover:bg-amber-800 dark:hover:text-slate-100 transition duration-300 ease-in-out">What we do</button>
                 </div>
-                <div class="col-span-12 md:col-span-6 bg-purple-700 dark:bg-slate-400 rounded-2xl p-6 space-y-6 md:flex">
+                <div class="col-span-12 md:col-span-6 bg-purple-700 dark:bg-amber-400 rounded-2xl p-6 space-y-6 md:flex">
                     <div class="w-full md:w-2/3 space-y-4 text-slate-50 dark:text-slate-950">
                         <h4 class="text-xl font-semibold capitalized ">Lorem ipsum dolor sit amet</h4>
                         <p class="text-base/4 font-semibold tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, cupiditate placeat id quisquam hic consectetur.</p>

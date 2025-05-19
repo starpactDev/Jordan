@@ -7,4 +7,4 @@ Route::get('/', function () {
 });
 Route::get('/moving-service', function () {
     return view('moving');
-});
+})->name('moving-service');
