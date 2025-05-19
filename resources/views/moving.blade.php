@@ -56,29 +56,29 @@
                 </div>
             </form>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-6 md:my-12 lg:my-16 p-4">
-                <div class="col-span-1 text-center">
-                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                <div class="col-span-1 text-center group">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 group-hover:bg-emerald-300 dark:group-hover:bg-emerald-700 rounded-lg overflow-hidden mx-auto mb-2 p-4">
                         <img src="{{ asset('images/logo/icons/shirt.png') }}" class="dark:invert" alt="">
                     </div>
                     <h6 class="uppercase dark:text-neutral-100 tracking-wide">Professional</h6>
                     <p class="font-bold text-lg tracking-wider text-blue-700 dark:text-blue-300">$1,080</p>
                 </div>
-                <div class="col-span-1 text-center">
-                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                <div class="col-span-1 text-center group">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 group-hover:bg-emerald-300 dark:group-hover:bg-emerald-700 rounded-lg overflow-hidden mx-auto mb-2 p-4">
                         <img src="{{ asset('images/logo/icons/container-storage.png') }}" class="dark:invert" alt="">
                     </div>
                     <h6 class="uppercase dark:text-neutral-100 tracking-wide">Container</h6>
                     <p class="font-bold text-lg tracking-wider text-blue-700 dark:text-blue-300">$1,458</p>
                 </div>
-                <div class="col-span-1 text-center">
-                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                <div class="col-span-1 text-center group">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 group-hover:bg-emerald-300 dark:group-hover:bg-emerald-700 rounded-lg overflow-hidden mx-auto mb-2 p-4">
                         <img src="{{ asset('images/logo/icons/truck-container.png') }}" class="dark:invert" alt="">
                     </div>
                     <h6 class="uppercase dark:text-neutral-100 tracking-wide">Freight</h6>
                     <p class="font-bold text-lg tracking-wider text-blue-700 dark:text-blue-300">$1,365</p>
                 </div>
-                <div class="col-span-1 text-center">
-                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                <div class="col-span-1 text-center group">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 group-hover:bg-emerald-300 dark:group-hover:bg-emerald-700 rounded-lg overflow-hidden mx-auto mb-2 p-4">
                         <img src="{{ asset('images/logo/icons/shipping-fast.png') }}" class="dark:invert" alt="">
                     </div>
                     <h6 class="uppercase dark:text-neutral-100 tracking-wide">Rental Truck</h6>
@@ -275,7 +275,7 @@
                 </div>
             </details>
         </div>
-        
+          
           
     </section>
     @production
