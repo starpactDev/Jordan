@@ -240,6 +240,44 @@
             <div class="col-span-3 border aspect-[1.67] p-4 shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out"></div>            
         </div>
     </section>
+
+    <section class="min-h-screen bg-emerald-50 dark:bg-emerald-950 py-6 md:py-12 lg:py-24">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl text-emerald-900 dark:text-emerald-100 mb-10 pt-10 text-center tracking-widest font-semibold">Frequently Asked Question</h1>
+        <div class="w-11/12 md:w-5/6 p-4 mx-auto">
+            <details class=" border-b-4 border-emerald-200 dark:border-emerald-800 p-4 ">
+                <summary class="cursor-pointer text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi unde eos ?</summary>
+                <div class="mt-2 text-gray-700 dark:text-gray-300 ">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel id autem amet iusto! At dolorum rem dolore enim cupiditate aperiam suscipit delectus culpa sequi, molestiae vel sed, dolores quod voluptates, esse ad ipsa asperiores id odio reiciendis accusamus! Maxime culpa distinctio repellat voluptatibus natus officiis perferendis facere eum ducimus accusamus optio similique suscipit, soluta, obcaecati nobis unde atque odit asperiores quae quas nihil. A, odio ab. Blanditiis, impedit numquam. Esse ipsa minus mollitia, fugiat repudiandae aut illo nemo, officia ullam laboriosam quia! Architecto aperiam sequi eius mollitia, inventore, error facere ea dignissimos cum est magni incidunt, deserunt sit illum tenetur.
+                </div>
+            </details>
+            <details class=" border-b-4 border-emerald-200 dark:border-emerald-800 p-4 ">
+                <summary class="cursor-pointer text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200"> Lorem ipsum dolor sit amet consectetur, adipisicing elit?</summary>
+                <div class="mt-2 text-gray-700 dark:text-gray-300 ">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur officiis modi quaerat repellendus voluptas. Quae libero ullam itaque expedita amet reiciendis quam, voluptate in sed voluptatum corrupti cum recusandae, eos quis quasi ducimus officia alias architecto molestias quos qui vitae. Iure delectus perferendis minus nesciunt! Officiis, nisi? Similique aperiam saepe odio, necessitatibus voluptate officiis quod eius sint nihil nemo accusantium quasi eum iusto ipsa ullam dignissimos deserunt beatae. Doloremque, obcaecati voluptatem temporibus ipsa dignissimos quidem culpa voluptates iure debitis saepe impedit, delectus ullam aliquid tempore minus similique vel molestiae adipisci.
+                </div>
+            </details>
+            <details class=" border-b-4 border-emerald-200 dark:border-emerald-800 p-4 ">
+                <summary class="cursor-pointer text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200"> Lorem ipsum dolor sit amet?</summary>
+                <div class="mt-2 text-gray-700 dark:text-gray-300 ">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, non? Exercitationem sed eius sit fugiat! Voluptatem sed cupiditate, minima hic iure distinctio voluptatibus. Et itaque porro, corrupti, blanditiis eum enim pariatur maiores sint accusantium quibusdam minus consectetur? Tenetur saepe ipsa necessitatibus, impedit repellat itaque, ex commodi deleniti officiis id, omnis ea totam et esse alias facere molestiae suscipit voluptate aspernatur veniam neque quam reprehenderit! Sed quam eius eaque rem repellat sunt deserunt, nobis esse reprehenderit unde soluta. Nulla, autem reprehenderit! Veniam quam dolores accusamus dolore tenetur quod iste veritatis, nemo quia quidem ad atque fugiat earum voluptatum ut nam temporibus? Adipisci tenetur cum quod maiores facilis temporibus repellat est non, quaerat ut? Itaque nesciunt beatae quasi inventore minima, odit quo.
+                </div>
+            </details>
+            <details class=" border-b-4 border-emerald-200 dark:border-emerald-800 p-4 ">
+                <summary class="cursor-pointer text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200"> Lorem ipsum dolor sit amet consectetur, adipisicing ?</summary>
+                <div class="mt-2 text-gray-700 dark:text-gray-300 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab fugiat ex sapiente adipisci, corporis fugit aperiam eum eaque veniam omnis dolores provident quae quod ullam quidem natus eligendi sit reiciendis incidunt recusandae accusamus libero. Sunt, laborum? Placeat eos sit, repellat illo rem consequatur quibusdam, facere earum maxime natus tempora.
+                </div>
+            </details>
+            <details class=" border-b-4 border-emerald-200 dark:border-emerald-800 p-4 ">
+                <summary class="cursor-pointer text-xl md:text-2xl font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200"> Lorem ipsum dolor sit amet consectetur?</summary>
+                <div class="mt-2 text-gray-700 dark:text-gray-300 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem odit suscipit deleniti in quasi officiis animi cupiditate consequatur ducimus similique quis, amet at. Sint possimus recusandae nostrum mollitia laudantium eius deleniti quam aliquam maxime qui, dolores commodi eaque in exercitationem rem fuga excepturi voluptatem tempore, laboriosam id molestiae ratione! Hic iste, maiores sit, aliquam quo numquam neque blanditiis voluptate provident temporibus dicta tempore architecto voluptatem eos minima, odit est autem accusantium voluptas eligendi? Fugit inventore ex optio officia nostrum atque odit, ducimus cumque vitae numquam nisi culpa et, corporis sit quasi, recusandae eum temporibus dolores perspiciatis mollitia beatae blanditiis voluptas ipsa. Perferendis molestias neque sunt eos pariatur mollitia provident sit beatae quos. Harum, ratione reiciendis et maiores reprehenderit ipsam incidunt quia architecto inventore repellendus vel perferendis molestias quasi ex suscipit ipsum sunt dolore at consequuntur, blanditiis debitis culpa quaerat. Pariatur similique deserunt nisi, omnis aliquam quod nobis ex sed esse voluptatum unde velit voluptate quisquam et tenetur veritatis placeat amet alias id tempore corrupti? Soluta, officiis eius corrupti ab atque aliquam sed quidem ad nostrum amet, consectetur autem enim necessitatibus quos. Officia, deleniti accusamus repellat quas reprehenderit reiciendis quod molestiae laudantium laborum non enim, tempore numquam error tenetur aperiam?
+                </div>
+            </details>
+        </div>
+        
+          
+    </section>
     @production
         <!-- Only load JS in production if needed -->
         @vite('resources/js/app.js')
