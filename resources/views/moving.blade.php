@@ -14,10 +14,10 @@
 <body>
 
     <section class="bg-emerald-50 dark:bg-emerald-950 min-h-screen py-6 md:py-12 lg:py-24 transition-colors duration-300">
-        <div class="w-11/12 lg:w-3/4 mx-auto bg-emerald-100 dark:bg-emerald-900 rounded-lg shadow-lg h-full pb-16 md:pb-24">
+        <div class="w-11/12 lg:w-3/4 mx-auto bg-emerald-100 dark:bg-emerald-900 rounded-lg shadow-lg h-full pb-6 md:pb-10">
             <h1 class="font-serif text-center text-3xl sm:text-4xl md:text-5xl text-emerald-900 dark:text-emerald-100 mb-10 pt-10"> Moving Cost Calculator </h1>
         
-            <form class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 px-6 pb-12 border-b border-emerald-500 dark:border-emerald-400">
+            <form class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 px-6 pb-12 border-b border-emerald-500 dark:border-emerald-700">
             
                 <!-- Moving From -->
                 <div class="col-span-1">
@@ -52,9 +52,39 @@
             
                 <!-- Submit -->
                 <div class="col-span-1 md:col-span-2 relative text-center">
-                    <button class="absolute top-6 -translate-x-1/2 py-3 px-10 rounded-full bg-emerald-600 dark:bg-emerald-400 hover:bg-emerald-700 dark:hover:bg-emerald-300 text-white dark:text-emerald-950 font-semibold tracking-wide shadow-lg transition"> Calculate </button>
+                    <button class="absolute top-6 -translate-x-1/2 py-3 px-10 rounded-full bg-emerald-400 dark:bg-emerald-700 hover:bg-emerald-500 dark:hover:bg-emerald-600 text-emerlad-950 dark:text-emerald-50 font-semibold tracking-wider transition"> Calculate </button>
                 </div>
             </form>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-6 md:my-12 lg:my-16 p-4">
+                <div class="col-span-1 text-center">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                        <img src="{{ asset('images/logo/icons/shirt.png') }}" class="dark:invert" alt="">
+                    </div>
+                    <h6 class="uppercase dark:text-neutral-100 tracking-wide">Professional</h6>
+                    <p class="font-bold text-lg tracking-wider text-blue-700 dark:text-blue-300">$1,080</p>
+                </div>
+                <div class="col-span-1 text-center">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                        <img src="{{ asset('images/logo/icons/container-storage.png') }}" class="dark:invert" alt="">
+                    </div>
+                    <h6 class="uppercase dark:text-neutral-100 tracking-wide">Container</h6>
+                    <p class="font-bold text-lg tracking-wider text-blue-700 dark:text-blue-300">$1,458</p>
+                </div>
+                <div class="col-span-1 text-center">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                        <img src="{{ asset('images/logo/icons/truck-container.png') }}" class="dark:invert" alt="">
+                    </div>
+                    <h6 class="uppercase dark:text-neutral-100 tracking-wide">Freight</h6>
+                    <p class="font-bold text-lg tracking-wider text-blue-700 dark:text-blue-300">$1,365</p>
+                </div>
+                <div class="col-span-1 text-center">
+                    <div class="relative w-1/3 aspect-square bg-emerald-200 dark:bg-emerald-800 rounded-lg overflow-hidden mx-auto mb-2 p-4">
+                        <img src="{{ asset('images/logo/icons/shipping-fast.png') }}" class="dark:invert" alt="">
+                    </div>
+                    <h6 class="uppercase dark:text-neutral-100 tracking-wide">Rental Truck</h6>
+                    <p class="font-bold text-lg tracking-wider text-blue-700 dark:text-blue-300">$962</p>
+                </div>
+            </div>
         </div>
     </section>
       
